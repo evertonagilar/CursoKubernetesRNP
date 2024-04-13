@@ -33,7 +33,7 @@ Vagrant.configure("2") do |config|
     config.vm.define "s2-node-#{i}" do |node|
       node.vm.provider "virtualbox" do |vb|
         vb.name = "s2-node-#{i}"
-        vb.memory = 2420git s
+        vb.memory = 2420
         vb.cpus = 2
       end
 
